@@ -1,6 +1,6 @@
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 
-const container = (delay: number) => ({
+const container = (delay: number): Variants => ({
   hidden: { x: -100, opacity: 0 },
   visible: {
     x: 0,
