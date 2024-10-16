@@ -1,9 +1,14 @@
+import appDevImage from '../assets/app-dev.avif';
+import digitalMarketingImage from '../assets/digital-marketing.avif';
+import ecomImage from '../assets/e-com.avif';
+import webdevImage from '../assets/webdev.jpeg';
+import wordpressImage from '../assets/wordpress.avif';
 
 const services = [
       {
         id: 1,
         name: "Web Development",
-        image: "../assets/webdev.jpeg",
+        image: webdevImage,
 
         description:
           "A personal portfolio website to showcase my projects, skills, and experience. It includes sections for about me, my projects, and a contact form.",
@@ -12,7 +17,7 @@ const services = [
       {
         id: 2,
         name: "App Development",
-        image: "../assets/app-dev.avif",
+        image:appDevImage,
      
         description:
           "An e-commerce web application with product listings, shopping cart functionality, user authentication, and order management.",
@@ -21,7 +26,7 @@ const services = [
       {
         id: 3,
         name: "E-commerce Development",
-        image: "../assets/e-com.avif",
+        image: ecomImage,
       
         description:
           "A real-time chat application with features like user authentication, chat rooms, and direct messaging.",
@@ -30,7 +35,7 @@ const services = [
       {
         id: 4,
         name: "Digital Marketing",
-        image: "../assets/digital-marketing.avif",
+        image: digitalMarketingImage,
        
         description:
           "A blogging platform where users can create, edit, and delete posts. It supports user authentication, comments, and categories.",
@@ -39,7 +44,7 @@ const services = [
       {
         id: 5,
         name: "WordPress Site Development",
-        image: "../assets/wordpress.avif",
+        image: wordpressImage,
      
         description:
           "A career guidance platform to assist users in navigating their professional goals and connecting with mentors.",
