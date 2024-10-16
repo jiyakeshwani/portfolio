@@ -9,7 +9,7 @@ const projects = [
     description:
       "A personal portfolio website to showcase my projects, skills, and experience. It includes sections for about me, my projects, and a contact form.",
     liveLink: "https://my-portfolio.com",
-    githubLink: "https://github.com/username/portfolio-website",
+    githubLink: "https://github.com/jiyakeshwani/portfolio",
     techStack: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
   },
   {
@@ -19,8 +19,8 @@ const projects = [
     status: "Completed",
     description:
       "An e-commerce web application with product listings, shopping cart functionality, user authentication, and order management.",
-    liveLink: "https://ecommerce-store.com",
-    githubLink: "https://github.com/username/ecommerce-store",
+    liveLink: "https://ta-frontend-state-and-forms-tr-aaab.vercel.app/",
+    githubLink: "https://github.com/jiyakeshwani/TA-FRONTEND-state-and-forms-TRaaab",
     techStack: ["React", "Redux", "Node.js", "Express", "MongoDB"],
   },
   {
@@ -42,7 +42,7 @@ const projects = [
     description:
       "A blogging platform where users can create, edit, and delete posts. It supports user authentication, comments, and categories.",
     liveLink: "https://link-project.vercel.app/",
-    githubLink: "https://github.com/username/blog-platform",
+    githubLink: "https://github.com/jiyakeshwani/link-project",
     techStack: ["React", "Node.js", "Express", "MongoDB", "Bootstrap"],
   },
   {
