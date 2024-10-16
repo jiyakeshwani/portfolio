@@ -2,7 +2,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import Logo from "../assets/logo.png";
 export const Header = () => {
 
 
@@ -10,7 +10,7 @@ export const Header = () => {
     <div className="flex  justify-between bg-transparent   items-center">
       <div>
         {" "}
-        <img src="src/assets/logo.png" alt="logo" />
+        <img src={Logo} alt="logo" />
       </div>
       <div>
         <a href="mailto:jiyakeshwani4@gmail.com" target="blank" >
