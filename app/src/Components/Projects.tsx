@@ -8,7 +8,7 @@ const projects = [
     status: "Completed",
     description:
       "A personal portfolio website to showcase my projects, skills, and experience. It includes sections for about me, my projects, and a contact form.",
-    liveLink: "https://my-portfolio.com",
+    liveLink: "https://jiyakeshwani.vercel.app/",
     githubLink: "https://github.com/jiyakeshwani/portfolio",
     techStack: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
   },
@@ -31,7 +31,7 @@ const projects = [
     description:
       "A real-time chat application with features like user authentication, chat rooms, and direct messaging.",
     liveLink: "https://my-chat-app.com",
-    githubLink: "https://github.com/username/chat-application",
+    githubLink: "https://github.com/jiyakeshwani/chat-Application",
     techStack: ["React", "Socket.io", "Node.js", "Express"],
   },
   {
@@ -53,7 +53,7 @@ const projects = [
     description:
       "A career guidance platform to assist users in navigating their professional goals and connecting with mentors.",
     liveLink: "https://my-career-guidance.com",
-    githubLink: "https://github.com/username/career-guidance",
+    githubLink: "https://github.com/jiyakeshwani/career-guidance",
     techStack: ["HTML", "CSS", "JavaScript", "React", "Node.js"],
   },
 ];

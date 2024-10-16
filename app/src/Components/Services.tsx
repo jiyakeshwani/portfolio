@@ -11,7 +11,7 @@ const services = [
         image: webdevImage,
 
         description:
-          "A personal portfolio website to showcase my projects, skills, and experience. It includes sections for about me, my projects, and a contact form.",
+          "A dynamic, responsive web application with modern frameworks, optimized performance, and seamless user experience. including API integration, and real-time data handling.",
      
       },
       {
@@ -20,7 +20,7 @@ const services = [
         image:appDevImage,
      
         description:
-          "An e-commerce web application with product listings, shopping cart functionality, user authentication, and order management.",
+          "A comprehensive mobile application offering users seamless functionality, featuring product listings, shopping carts, and integrated user authentication.",
       
       },
       {
@@ -29,7 +29,7 @@ const services = [
         image: ecomImage,
       
         description:
-          "A real-time chat application with features like user authentication, chat rooms, and direct messaging.",
+          "An advanced online store platform with real-time product updates, integrated payments, and a dynamic shopping experience tailored to user preferences.",
         
       },
       {
@@ -38,7 +38,7 @@ const services = [
         image: digitalMarketingImage,
        
         description:
-          "A blogging platform where users can create, edit, and delete posts. It supports user authentication, comments, and categories.",
+          "A full-service digital marketing platform that helps businesses boost their online presence with tools for SEO, social media management, and campaign analytics.",
        
       },
       {
@@ -47,7 +47,7 @@ const services = [
         image: wordpressImage,
      
         description:
-          "A career guidance platform to assist users in navigating their professional goals and connecting with mentors.",
+          "A flexible WordPress website tailored to meet business needs, with full support for custom themes, plugins, and content management integration.",
        
       },
    
@@ -61,11 +61,11 @@ export const Service = (): JSX.Element => {
          <div className=" grid  lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-8 p-4 ">
 
          {services.map((service) => (
-  <article className="relative mb-32 mt-8 ">
+  <article className="relative mb-40 mt-8 ">
   <figure className="">
         <img  className="h-[230px] w-[626px]" src={service.image} alt="#" />
   </figure>
-  <div className=" bg-black rounded-2xl p-4 flex justify-center flex-col items-center w-3/4 absolute top-44 left-12">
+  <div className=" bg-black rounded-2xl p-4 flex justify-center flex-col items-center w-3/4 absolute top-44 md:left-12 left-8">
   <h1  className="text-xl font-semibold"> {service.name}  </h1>
   <p className="text-sm my-4">{service.description}</p> 
   </div>
