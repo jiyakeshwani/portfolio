@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import AboutImg from "../assets/aboutimg.jpg";
 
 export const About = (): JSX.Element => {
   return (
@@ -19,7 +20,7 @@ export const About = (): JSX.Element => {
           <div className="flex justify-center items-center">
             <img
               className="w-96 rounded-2xl"
-              src="src/assets/aboutimg.jpg"
+              src={AboutImg}
               alt="#"
             />
           </div>
