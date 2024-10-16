@@ -1,5 +1,5 @@
 import { motion, Variants } from "framer-motion";
-
+import HeroImg from "../assets/heroimg.jpg";
 const container = (delay: number): Variants => ({
   hidden: { x: -100, opacity: 0 },
   visible: {
@@ -50,8 +50,7 @@ className="pb-16 text-4xl font-thin tracking-tight lg:mt-16 lg:text-6xl">
              animate={{x:0 , opacity: 1}}
              transition={{duration: 1, delay: 1.2}}
               className="w-96 rounded-2xl"
-              src="src/assets/heroimg.jpg"
-              alt="#"
+              src={HeroImg}              alt="#"
             />
           </div>
         </div>

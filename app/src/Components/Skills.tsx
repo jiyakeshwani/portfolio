@@ -1,4 +1,23 @@
 import { motion, Variants } from "framer-motion";
+//  tech skills 
+import CSS from "../assets/techSkills/css.png";
+import HTML from "../assets/techSkills/html.png";
+import JavaScript from "../assets/techSkills/javascript.png";
+import MaterialUI from "../assets/techSkills/mui.png";
+import Nextjs from "../assets/techSkills/nextjs-icon.webp";
+import Nodejs from "../assets/techSkills/nodejs.png";
+import React from "../assets/techSkills/react.png";
+import Redux from "../assets/techSkills/redux.png";
+import Shadcn from "../assets/techSkills/shadCn.png";
+import Tailwind from "../assets/techSkills/tailwind.png";
+import Typescript from "../assets/techSkills/typescript.png";
+// non tech skills
+import GoogleA from "../assets/nonTechSkills/googleanalytics.png";
+import GoogleT from "../assets/nonTechSkills/googletagmanager.png";
+import HubSpot from "../assets/nonTechSkills/hubspot.png";
+import Mailchimp from "../assets/nonTechSkills/mailchimp.png";
+import Shopify from "../assets/nonTechSkills/shopify.png";
+import WordPress from "../assets/nonTechSkills/wordpress.png";
 
 const iconVariants = (duration: number): Variants => ({
   initial: { y: -10 },
@@ -40,7 +59,7 @@ transition={{duration: 1.5}}
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4 flex justify-center items-center flex-col"
         >
-          <img src="src/assets/techSkills/html.png" alt="html" />
+          <img src={HTML} alt="html" />
           <p>HTML</p>
         </motion.div>
         <motion.div
@@ -49,7 +68,7 @@ transition={{duration: 1.5}}
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4 flex justify-center items-center flex-col"
         >
-          <img src="src/assets/nonTechSkills/shopify.png" alt="css" />
+          <img src={CSS} alt="css" />
           <p>CSS</p>
         </motion.div>
         <motion.div
@@ -58,7 +77,7 @@ transition={{duration: 1.5}}
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4 flex justify-center items-center flex-col"
         >
-          <img src="src/assets/techSkills/javascript.png" alt="js" />
+          <img src={JavaScript} alt="js" />
           <p>JavaScript</p>
         </motion.div>
         <motion.div
@@ -67,27 +86,27 @@ transition={{duration: 1.5}}
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4 flex justify-center items-center flex-col"
         >
-          <img src="src/assets/techSkills/react.png" alt="react" />
+          <img src={React} alt="react" />
           <p>ReactJS</p>
         </motion.div>
         <motion.div
-          // @ts-ignore
+          
           variants={iconVariants(6)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4 flex justify-center items-center flex-col"
         >
-          <img src="src/assets/techSkills/typescript.png" alt="typescript" />
+          <img src={Typescript} alt="typescript" />
           <p>TypeScript</p>
         </motion.div>
         <motion.div
-          // @ts-ignore
+  
           variants={iconVariants(4)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4 flex justify-center items-center flex-col"
         >
-          <img src="src/assets/techSkills/redux.png" alt="redux" />
+          <img src={Redux} alt="redux" />
           <p>Redux</p>
         </motion.div>
         <motion.div
@@ -96,21 +115,21 @@ transition={{duration: 1.5}}
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4 flex justify-center items-center flex-col"
         >
-          <img src="src/assets/techSkills/tailwind.png" alt="tailwindCSS" />
+          <img src={Tailwind} alt="tailwindCSS" />
           <p>Tailwind CSS</p>
         </motion.div>
         <motion.div
-          // @ts-ignore
+          
           variants={iconVariants(7)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4 flex justify-center items-center flex-col"
         >
-          <img src="src/assets/techSkills/nodejs.png" alt="nodejs" />
+          <img src={Nodejs} alt="nodejs" />
           <p>NodeJS</p>
         </motion.div>
         <motion.div
-          // @ts-ignore
+        
           variants={iconVariants(5)}
           initial="initial"
           animate="animate"
@@ -118,13 +137,13 @@ transition={{duration: 1.5}}
         >
           <img
             className="w-24 h-24"
-            src="src/assets/techSkills/nextjs-icon.webp"
+            src={Nextjs}
             alt="NextJS"
           />
           <p>NextJS</p>
         </motion.div>
         <motion.div
-          // @ts-ignore
+      
           variants={iconVariants(6)}
           initial="initial"
           animate="animate"
@@ -132,19 +151,19 @@ transition={{duration: 1.5}}
         >
           <img
             className="w-24 h-24"
-            src="src/assets/techSkills/shadCn.png"
+            src={Shadcn}
             alt="Shad cn Ui"
           />
           <p>Shad Cn UI</p>
         </motion.div>
         <motion.div
-          // @ts-ignore
+          
           variants={iconVariants(3)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4 flex justify-center items-center flex-col"
         >
-          <img src="src/assets/techSkills/mui.png" alt="MaterialUi" />
+          <img src={MaterialUI} alt="MaterialUi" />
           <p>Material UI</p>
         </motion.div>
       </motion.div>
@@ -164,55 +183,55 @@ transition={{duration: 1.5}}
        transition={{duration: 1.5}}
       className="flex flex-wrap gap-4 items-center justify-center">
          <motion.div
-          // @ts-ignore
+          
           variants={iconVariants(2.5)}
           initial="initial"
           animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4 flex justify-center items-center flex-col">
-          <img src="src/assets/nonTechSkills/shopify.png" alt="Shopify" />
+          <img src={Shopify} alt="Shopify" />
           <p>Shopify</p>
         </motion.div>
          <motion.div
-          // @ts-ignore
+          
           variants={iconVariants(3)}
           initial="initial"
           animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4 flex justify-center items-center flex-col">
-          <img src="src/assets/nonTechSkills/wordpress.png" alt="wordpress" />
+          <img src={WordPress} alt="wordpress" />
           <p>Wordpress</p>
         </motion.div>
          <motion.div
-          // @ts-ignore
+          
           variants={iconVariants(6)}
           initial="initial"
           animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4 flex justify-center items-center flex-col">
-          <img src="src/assets/nonTechSkills/mailchimp.png" alt="mailchimp" />
+          <img src={Mailchimp} alt="mailchimp" />
           <p>Mailchimp</p>
         </motion.div>
          <motion.div
-          // @ts-ignore
+          
           variants={iconVariants(3)}
           initial="initial"
           animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4 flex justify-center items-center flex-col">
-          <img src="src/assets/nonTechSkills/hubspot.png" alt="hubSpot" />
+          <img src={HubSpot} alt="hubSpot" />
           <p>HubSpot</p>
         </motion.div>
          <motion.div
-          // @ts-ignore
+          
           variants={iconVariants(6)}
           initial="initial"
           animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4 flex justify-center items-center flex-col">
           <img
-            src="src/assets/nonTechSkills/googletagmanager.png"
+            src={GoogleT}
             alt="Google Tag Manager"
           />
           <p>Google Tag Manager</p>
         </motion.div>
          <motion.div
-          // @ts-ignore
+          
           variants={iconVariants(5)}
           initial="initial"
           animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4 flex justify-center items-center flex-col">
           <img
-            src="src/assets/nonTechSkills/googleanalytics.png"
+            src={GoogleA}
             alt="Google Analytics"
           />
           <p>Google Analytics</p>
