@@ -1,6 +1,6 @@
 import { motion, Variants } from "framer-motion";
 //  tech skills 
-import CSS from "../assets/techSkills/css.png";
+import CSS from "../assets/aboutImage.jpg";
 import HTML from "../assets/techSkills/html.png";
 import JavaScript from "../assets/techSkills/javascript.png";
 import MaterialUI from "../assets/techSkills/mui.png";
